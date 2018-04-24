@@ -1,0 +1,20 @@
+<html>
+
+<body>
+  <div id="app">
+    {{ message }}
+    <span v-if="show">
+      Show me...
+    </span>
+    <div v-for="product in products">
+      {{ product.name }}
+      <input v-model="product.name" />
+      <button v-on:click="showDetail(product)">Show detail</button>
+    </div>
+  </div>
+  <!-- development version, includes helpful console warnings -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
