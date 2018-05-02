@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <div id="app">
+        {{ message }}
+        <div>
+        A through getter: {{ aget }}
+        </div>
+
+        <div>
+        value of a: <strong>{{ a }}</strong>
+        </div>
+        <div>
+        value of b: <strong>{{ b }}</strong>
+        </div>
+        <div>
+        <input v-model="input" />
+        <button @click="save">Save</button>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+      <script src="https://unpkg.com/vuex"></script>
+      <script src="app.js"></script>
+  </body>
+</html>

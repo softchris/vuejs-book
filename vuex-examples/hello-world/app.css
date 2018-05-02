@@ -1,0 +1,21 @@
+body {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.selected {
+  background: yellowgreen;
+}
+
+.product {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 5px grey;
+  border: solid 1px #fefefe;
+  font-size: 18px;
+}
+
+input,
+button {
+  font-size: 18px;
+}
